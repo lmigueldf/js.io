@@ -1,9 +1,6 @@
 jsio('external .sizzle import Sizzle');
 
-import math
-
-.
-geom.Rect;
+jsio('import math.geom.Rect');
 
 function isWindow(el) {
     return el && !$.isElement(el) && $.isElement(el.document);
