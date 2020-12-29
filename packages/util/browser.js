@@ -1,4 +1,3 @@
-jsio('external .sizzle import Sizzle');
 
 jsio('import math.geom.Rect');
 
