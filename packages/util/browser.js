@@ -20,7 +20,7 @@ var $ = exports.$ = function (selector, win) {
             if (singleId.test(selector)) {
                 return $.id(selector.substring(1), win);
             }
-            return Sizzle.apply(GLOBAL, arguments);
+            return '';
     }
 }
 
